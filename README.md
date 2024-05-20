@@ -1,4 +1,4 @@
-# <center> ☢️ Apocalypse DB Manager ☢️ </center>
+<h1 align="center" style="font-weight: bold;"> ☢️ Apocalypse DB Manager ☢️ </h1>
 
 <p align="center">
   <a href="#">
