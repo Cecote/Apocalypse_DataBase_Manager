@@ -25,9 +25,8 @@
  <a href="#description">Description</a> • 
  <a href="#started">Getting Started</a> • 
  <a href="#running">Running the application</a> • 
-  <a href="#started">App Routes</a> • 
+  <a href="#routes">App Routes</a> • 
   <a href="#colab">Collaborators</a> •
- <a href="#contribute">Contribute</a>
 </p>
 
 <p align="center">
@@ -90,7 +89,7 @@ npm install
 Now, leaving the project root directory again, it will be necessary to do a similar procedure in the server module's app directory as shown below
 
 ```bash
-cd cd Apocalypse_Server/
+cd Apocalypse_Server/
 ```
 
 ```bash
@@ -114,4 +113,57 @@ To streamline this process, we have provided a file (on directory "Apocalypse_Sc
 
 At the moment, if you have followed all the steps so far without any problems, both the bank and the application are ready to be started.
 
-<h2 id="running"> 🚀 Running the application</h2>
+<h2 id="running"> 🚀 Starting the application</h2>
+
+First navigate to the server directory and start it.
+
+```bash
+cd Apocalypse_Server/
+```
+
+```bash
+cd app/
+```
+
+```bash
+npm start
+```
+
+Now open a second terminal and navigate to the client directory and launch it.
+
+```bash
+cd Apocalypse_Client/
+```
+
+```bash
+cd Client/
+```
+
+```bash
+npm run dev
+```
+
+Once this is done, the application is now working. Now, open the browser and access the url where the application is running (it will probably be something like http://localhost:<port_number>/ ) and you will land on the login page. Click on the "entrar" button and you will access the system's home page.
+
+<h2 id="routes"> 📍 Application routes</h2>
+
+| route               | description                                          
+|----------------------|-----------------------------------------------------
+| <kbd>/home</kbd>     | page that lists all the application's features
+| <kbd>/pessoas</kbd>     | page that lists all the people registered in the system as well as some relevant information about each of them
+| <kbd>/veiculos</kbd>     | page that lists all vehicles registered in the system as well as some relevant information about each one of them
+| <kbd>/construcoes</kbd>     | page that lists all the buildings registered in the system as well as some relevant information about each of them
+| <kbd>/consumiveis</kbd>     | page that lists all consumables registered in the system as well as some relevant information about each of them
+| <kbd>/roupas</kbd>     | page that lists all the clothes registered in the system as well as some relevant information about each one of them
+| <kbd>/ferramentas</kbd>     | page that lists all the tools registered in the system as well as some relevant information about each of them
+| <kbd>/pessoas/update/<person_id></kbd>     | page that changes a person's data based on their ID
+| <kbd>/pessoas/add</kbd>     | page to add new people to the system
+
+<h2 id="colab">🤝 Collaborators</h2>
+
+- [Ana Laura Mendes](https://github.com/a-mendes)
+- [Eder Bragança](https://github.com/EderBraganca)
+- [Luísa Calegari](https://github.com/lsclgr)
+- [Mateus Hamade](https://github.com/mateus-hamade)
+- [Selio Guilherme](https://github.com/Guilherme1258)
+- [Thiago Cecote](https://github.com/Cecote)
