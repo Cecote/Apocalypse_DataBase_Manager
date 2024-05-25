@@ -30,7 +30,7 @@
 </p>
 
 <p align="center">
-    <img src="Images/InitialPage.png" alt="Image Example" width="400px">
+    <img src="Images/InitialPage.png" alt="Image Example" width="600px">
 </p>
 
 <h2 id="description">📝 Description</h2>
