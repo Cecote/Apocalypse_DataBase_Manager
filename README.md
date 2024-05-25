@@ -24,7 +24,7 @@
 <p align="center">
  <a href="#description">Description</a> • 
  <a href="#started">Getting Started</a> • 
- <a href="#running">Running the application</a> • 
+ <a href="#running">Starting the application</a> • 
   <a href="#routes">App Routes</a> • 
   <a href="#colab">Collaborators</a> •
 </p>
